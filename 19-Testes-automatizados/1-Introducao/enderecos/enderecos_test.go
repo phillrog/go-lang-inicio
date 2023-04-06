@@ -1,6 +1,9 @@
-package enderecos
+package enderecos_test
 
-import "testing"
+import (
+	. "go-lang-inicio/19-Testes-automatizados/1-Introducao/enderecos"
+	"testing"
+)
 
 type cenarioDeTeste struct {
 	enderecoInserido string
@@ -8,6 +11,7 @@ type cenarioDeTeste struct {
 }
 
 func TestTipoDeEndereco(t *testing.T) {
+	t.Parallel()
 	cenarioDeTeste := []cenarioDeTeste{
 		{"Rua Pestallozi", "Rua"},
 		{"Avenida Paulista", "Avenida"},
@@ -21,5 +25,12 @@ func TestTipoDeEndereco(t *testing.T) {
 		if retornoRecebido != cenario.retornoEsperado {
 			t.Errorf("O tipo recebido  %sé diferente do esperado %s", retornoRecebido, cenario.retornoEsperado)
 		}
+	}
+}
+
+func TestSOma(t *testing.T) {
+	t.Parallel()
+	if 1 > 2 {
+		t.Error("Teste falhou!")
 	}
 }
