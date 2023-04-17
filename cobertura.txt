@@ -1,0 +1,7 @@
+mode: set
+go-lang-inicio/19-Testes-automatizados/1-Introducao/enderecos/enderecos.go:6.43,13.36 4 1
+go-lang-inicio/19-Testes-automatizados/1-Introducao/enderecos/enderecos.go:13.36,14.72 1 1
+go-lang-inicio/19-Testes-automatizados/1-Introducao/enderecos/enderecos.go:14.72,16.4 1 1
+go-lang-inicio/19-Testes-automatizados/1-Introducao/enderecos/enderecos.go:19.2,19.20 1 1
+go-lang-inicio/19-Testes-automatizados/1-Introducao/enderecos/enderecos.go:19.20,21.3 1 1
+go-lang-inicio/19-Testes-automatizados/1-Introducao/enderecos/enderecos.go:23.2,23.25 1 1
